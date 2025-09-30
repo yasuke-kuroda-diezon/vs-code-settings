@@ -54,5 +54,7 @@
   "editor.showFoldingControls": "always",
   "notebook.showFoldingControls": "always",
   "explorer.compactFolders": false,
-  "search.showLineNumbers": true
+  "search.showLineNumbers": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line"
 }
