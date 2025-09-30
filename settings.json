@@ -57,5 +57,7 @@
   "search.showLineNumbers": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "workbench.editor.pinnedTabsOnSeparateRow": true
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.iconTheme": "material-icon-theme"
 }
