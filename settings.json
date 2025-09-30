@@ -27,15 +27,6 @@
     "Yamato",
     "yasukekuroda"
   ],
-  "security.promptForLocalFileProtocolHandling": false,
-  "chat.editing.confirmEditRequestRemoval": false,
-  "workbench.settings.applyToAllProfiles": [
-    "turboConsoleLog.addSemicolonInTheEnd",
-    "turboConsoleLog.insertEnclosingClass",
-    "editor.formatOnSave"
-  ],
-  "turboConsoleLog.addSemicolonInTheEnd": true,
-  "turboConsoleLog.insertEnclosingClass": false,
   "workbench.editor.enablePreview": false,
   "git.suggestSmartCommit": false,
   "gitlens.ai.model": "vscode",
