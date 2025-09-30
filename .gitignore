@@ -5,4 +5,4 @@ workspaceStorage/
 # vscodeのプロファイル設定.
 profiles/*
 !profiles/*/
-!profiles/*/settings.json
+!profiles/*/*.json
