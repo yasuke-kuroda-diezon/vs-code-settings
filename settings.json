@@ -2,7 +2,9 @@
   "chat.mcp.discovery.enabled": true,
   "chat.mcp.serverSampling": {
     "Global in Code: backlog": {
-      "allowedModels": ["github.copilot-chat/gpt-4.1"]
+      "allowedModels": [
+        "github.copilot-chat/gpt-4.1"
+      ]
     }
   },
   "diffEditor.experimental.useTrueInlineView": true,
@@ -15,11 +17,9 @@
   "editor.showFoldingControls": "always",
   "explorer.compactFolders": false,
   "files.trimTrailingWhitespace": true,
-  "github.copilot.nextEditSuggestions.enabled": true,
   "search.showLineNumbers": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "vim.foldfix": true,
   "workbench.colorTheme": "Default Dark+",
   "workbench.editor.enablePreview": false,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
