@@ -10,11 +10,13 @@
   "cSpell.userWords": [
     "bullmq",
     "Diezon",
+    "Dtos",
     "eccube",
     "esbenp",
     "fflate",
     "foldfix",
     "nodenext",
+    "Noto",
     "opensearch",
     "paralleldrive",
     "pdfme",
@@ -44,5 +46,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "diffEditor.experimental.useTrueInlineView": true,
-  "editor.dragAndDrop": false
+  "editor.dragAndDrop": false,
+  "editor.guides.bracketPairs": true
 }
