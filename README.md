@@ -12,8 +12,11 @@
 
 ### profile
 
-▼ Regolith Headless
+▼ Headless(backend)
 profiles/3493a500/settings.json
+
+▼ Headless(frontend)
+profiles/279adeb5/settings.json
 
 ▼ Regolith.
 profiles/-7d4a17ce/settings.json
