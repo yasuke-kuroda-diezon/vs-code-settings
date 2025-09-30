@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Start MCP Server (backlog)",
+      "command": "docker",
+      "args": [
+        "run",
+        "--pull",
+        "always",
+        "-i",
+        "--rm",
+        "-e",
+        "BACKLOG_DOMAIN",
+        "-e",
+        "BACKLOG_API_KEY",
+        "-e",
+        "ENABLE_TOOLSETS",
+        "-e",
+        "DYNAMIC_TOOLSETS",
+        "ghcr.io/nulab/backlog-mcp-server"
+      ],
+      "isBackground": true,
+      "group": "build"
+    }
+  ]
+}
