@@ -30,8 +30,9 @@
   "security.promptForLocalFileProtocolHandling": false,
   "chat.editing.confirmEditRequestRemoval": false,
   "workbench.settings.applyToAllProfiles": [
-    "turboConsoleLog.logFunction",
-    "turboConsoleLog.insertEnclosingClass"
+    "turboConsoleLog.addSemicolonInTheEnd",
+    "turboConsoleLog.insertEnclosingClass",
+    "editor.formatOnSave"
   ],
   "turboConsoleLog.addSemicolonInTheEnd": true,
   "turboConsoleLog.insertEnclosingClass": false,
@@ -44,7 +45,6 @@
   "prettier.prettierPath": "./node_modules/prettier",
   "git.openRepositoryInParentFolders": "never",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
   "diffEditor.experimental.useTrueInlineView": true,
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairs": true,
