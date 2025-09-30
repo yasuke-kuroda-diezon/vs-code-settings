@@ -47,5 +47,8 @@
   "editor.formatOnSave": true,
   "diffEditor.experimental.useTrueInlineView": true,
   "editor.dragAndDrop": false,
-  "editor.guides.bracketPairs": true
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "all"
 }
