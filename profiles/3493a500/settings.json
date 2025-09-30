@@ -30,6 +30,6 @@
     "prettier.requireConfig": true,
     "turboConsoleLog.addSemicolonInTheEnd": true,
     "turboConsoleLog.insertEnclosingClass": false,
-    "workbench.iconTheme": "material-icon-theme",
     "vim.foldfix": true,
+    "workbench.iconTheme": "material-icon-theme"
 }

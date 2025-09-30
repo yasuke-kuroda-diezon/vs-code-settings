@@ -1,12 +1,4 @@
 {
-  "chat.mcp.discovery.enabled": true,
-  "chat.mcp.serverSampling": {
-    "Global in Code: backlog": {
-      "allowedModels": [
-        "github.copilot-chat/gpt-4.1"
-      ]
-    }
-  },
   "diffEditor.experimental.useTrueInlineView": true,
   "editor.cursorWidth": 1,
   "editor.dragAndDrop": false,
@@ -23,5 +15,24 @@
   "workbench.colorTheme": "Default Dark+",
   "workbench.editor.enablePreview": false,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
-  "workbench.editor.wrapTabs": true
+  "workbench.editor.wrapTabs": true,
+  "workbench.settings.applyToAllProfiles": [
+    "diffEditor.experimental.useTrueInlineView",
+    "editor.dragAndDrop",
+    "editor.guides.bracketPairs",
+    "editor.minimap.maxColumn",
+    "editor.minimap.showSlider",
+    "editor.renderWhitespace",
+    "editor.showFoldingControls",
+    "explorer.compactFolders",
+    "files.trimTrailingWhitespace",
+    "search.showLineNumbers",
+    "terminal.integrated.cursorBlinking",
+    "terminal.integrated.cursorStyle",
+    "workbench.colorTheme",
+    "workbench.editor.enablePreview",
+    "workbench.editor.pinnedTabsOnSeparateRow",
+    "workbench.editor.wrapTabs",
+    "editor.cursorWidth"
+  ],
 }
