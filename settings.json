@@ -50,5 +50,9 @@
   "editor.guides.bracketPairs": true,
   "editor.minimap.maxColumn": 80,
   "editor.minimap.showSlider": "always",
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "all",
+  "editor.showFoldingControls": "always",
+  "notebook.showFoldingControls": "always",
+  "explorer.compactFolders": false,
+  "search.showLineNumbers": true
 }
