@@ -1,7 +1,4 @@
 {
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "cSpell.userWords": [
       "bullmq",
       "Diezon",
@@ -13,6 +10,7 @@
       "nodenext",
       "Noto",
       "opensearch",
+      "Paidy",
       "paralleldrive",
       "pdfme",
       "POINTUP",
@@ -23,9 +21,14 @@
       "Yamato",
       "yasukekuroda"
     ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "notebook.showFoldingControls": "always",
+    "prettier.prettierPath": "./node_modules/prettier",
+    "prettier.requireConfig": true,
     "turboConsoleLog.addSemicolonInTheEnd": true,
     "turboConsoleLog.insertEnclosingClass": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.requireConfig": true,
-    "prettier.prettierPath": "./node_modules/prettier",
+    "workbench.iconTheme": "material-icon-theme"
 }
