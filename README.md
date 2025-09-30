@@ -10,6 +10,8 @@
 
 [Visual Studio Code (VS Code)のオススメ設定と拡張機能の紹介](https://zenn.dev/yutotnh/articles/1577b6dc5ab7d9)
 
+[【VSCode】試行錯誤の末たどりついた設定管理術](https://zenn.dev/hacobell_dev/articles/52b383c05ab408)
+
 ### profile
 
 ▼ Headless(backend)
