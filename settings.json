@@ -11,7 +11,9 @@
     "bullmq",
     "Diezon",
     "eccube",
+    "esbenp",
     "fflate",
+    "foldfix",
     "nodenext",
     "opensearch",
     "paralleldrive",
@@ -35,10 +37,12 @@
   "git.suggestSmartCommit": false,
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Default Dark+",
   "prettier.requireConfig": true,
   "prettier.prettierPath": "./node_modules/prettier",
   "git.openRepositoryInParentFolders": "never",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "diffEditor.experimental.useTrueInlineView": true,
+  "editor.dragAndDrop": false
 }
