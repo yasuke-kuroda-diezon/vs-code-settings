@@ -38,5 +38,7 @@
     "workbench.editor.enablePreview",
     "workbench.editor.pinnedTabsOnSeparateRow",
     "workbench.editor.wrapTabs",
+    "files.trimFinalNewlines",
   ],
+  "files.trimFinalNewlines": true,
 }
