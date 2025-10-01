@@ -20,12 +20,15 @@
   "workbench.editor.wrapTabs": true,
   "workbench.settings.applyToAllProfiles": [
     "diffEditor.experimental.useTrueInlineView",
+    "editor.bracketPairColorization.enabled",
+    "editor.cursorWidth",
     "editor.dragAndDrop",
     "editor.guides.bracketPairs",
     "editor.minimap.maxColumn",
     "editor.minimap.showSlider",
     "editor.renderWhitespace",
     "editor.showFoldingControls",
+    "editor.tabSize",
     "explorer.compactFolders",
     "files.trimTrailingWhitespace",
     "search.showLineNumbers",
@@ -35,8 +38,5 @@
     "workbench.editor.enablePreview",
     "workbench.editor.pinnedTabsOnSeparateRow",
     "workbench.editor.wrapTabs",
-    "editor.cursorWidth",
-    "editor.bracketPairColorization.enabled",
-    "editor.tabSize"
   ],
 }
