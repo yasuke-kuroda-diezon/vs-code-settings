@@ -1,5 +1,6 @@
 {
   "diffEditor.experimental.useTrueInlineView": true,
+  "editor.bracketPairColorization.enabled": true,
   "editor.cursorWidth": 1,
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairs": true,
@@ -7,6 +8,7 @@
   "editor.minimap.showSlider": "always",
   "editor.renderWhitespace": "all",
   "editor.showFoldingControls": "always",
+  "editor.tabSize": 2,
   "explorer.compactFolders": false,
   "files.trimTrailingWhitespace": true,
   "search.showLineNumbers": true,
@@ -16,7 +18,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.editor.wrapTabs": true,
-  "editor.bracketPairColorization.enabled": true,
   "workbench.settings.applyToAllProfiles": [
     "diffEditor.experimental.useTrueInlineView",
     "editor.dragAndDrop",
@@ -35,6 +36,7 @@
     "workbench.editor.pinnedTabsOnSeparateRow",
     "workbench.editor.wrapTabs",
     "editor.cursorWidth",
-    "editor.bracketPairColorization.enabled"
+    "editor.bracketPairColorization.enabled",
+    "editor.tabSize"
   ],
 }
