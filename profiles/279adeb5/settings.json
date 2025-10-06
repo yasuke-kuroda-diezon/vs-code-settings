@@ -1,0 +1,38 @@
+{
+  "cSpell.userWords": [
+    "bullmq",
+    "Diezon",
+    "Dtos",
+    "eccube",
+    "esbenp",
+    "fflate",
+    "foldfix",
+    "nodenext",
+    "Noto",
+    "opensearch",
+    "Paidy",
+    "paralleldrive",
+    "pdfme",
+    "POINTUP",
+    "sendgrid",
+    "Sensio",
+    "Skus",
+    "trivago",
+    "Yamato",
+    "yasukekuroda"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.showFoldingControls": "always",
+  "prettier.prettierPath": "./node_modules/prettier",
+  "prettier.requireConfig": true,
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "search.exclude": {
+    "**/*.code-search": false,
+    "**/bower_components": false,
+    "**/node_modules": false,
+    "dist/**": true,
+    "node_modules/**": true
+  }
+}

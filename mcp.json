@@ -1,0 +1,31 @@
+{
+	"inputs": [],
+	"servers": {
+		"backlog": {
+			"command": "docker",
+			"args": [
+				"run",
+				"--pull",
+				"always",
+				"-i",
+				"--rm",
+				"-e",
+				"BACKLOG_DOMAIN",
+				"-e",
+				"BACKLOG_API_KEY",
+				"-e",
+				"ENABLE_TOOLSETS",
+				"-e",
+				"DYNAMIC_TOOLSETS",
+				"ghcr.io/nulab/backlog-mcp-server"
+			],
+			"env": {
+				"BACKLOG_DOMAIN": "diezon.backlog.com",
+				"BACKLOG_API_KEY": "0NEGGWAOYOEHNLhflec6VWm7RPtpGrgvwB8Jfgg05irh4QU88bU0vEvxUvMnlo0l",
+				"ENABLE_TOOLSETS": "all",
+				"DYNAMIC_TOOLSETS": 1
+			},
+			"type": "stdio"
+		}
+	}
+}

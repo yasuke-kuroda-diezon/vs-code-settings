@@ -1,0 +1,101 @@
+## 使い方
+
+VSCodeのターミナルでgit操作を行うことを想定しています。下記コマンドを実行ください
+
+```
+code ~/Library/Application\ Support/Code/User
+```
+
+## 参考リンク
+
+- [VSCode 試行錯誤の末たどりついた設定管理術](https://zenn.dev/hacobell_dev/articles/52b383c05ab408)
+
+## 方針
+
+VSCodeの設定管理に、プロファイルを導入します。
+
+`VSCode < ユーザー設定 < ⭐️プロファイル設定⭐️ < ワークスペース設定`
+
+見た方が早く、以下の様な動作になります(60s)
+
+https://diezon.gyazo.com/de4a2404dbec1e1551504718871abf62
+
+ワークスペース設定は案件のgitリポジトリで管理しており、git差分が生じる都合、気軽にカスタマイズできない課題を感じていました。
+例えば以下です。
+
+[[DEV_HEADLESS/regolith-api] .vscode/settings.json | Git | Backlog](https://diezon.backlog.com/git/DEV_HEADLESS/regolith-api/blob/main/.vscode/settings.json)
+
+一方で、ユーザー設定を追加するのは、VSCode全体のグローバル設定が増え、VSCodeが重たくなる要因になります。
+「PHP開発時は、ユーザー設定 extends PHPプロファイル」とし、「Docker開発時は、ユーザー設定 extends Dockerプロファイル」とすることで、
+拡張機能や設定を自由にコントロールします。
+
+## プロファイル一覧
+
+### docker
+Regolith／Regolith Headless案件でのDocker作業用プロファイルです。
+VSCodeでDockerを操作する際に便利な設定をまとめています。
+
+- 拡張機能
+  - Docker関連の拡張機能をインストール
+- 対象ディレクトリ例
+  - eccube-docker/
+  - hazaiya-docker/
+  - regolith-docker/
+  - olta-docker/
+
+---
+### eccube
+Regolith案件でのSymfonyフレームワーク（PHP）開発用プロファイルです。
+
+- 拡張機能
+  - Symfony / PHP / Twig / YAML関連の拡張機能をインストール
+- ユーザー設定
+  - 単語をダブルクリックで選択する際、`$`を単語の一部として認識する設定
+- 対象ディレクトリ例
+  - hazaiya-docker/eccube_web/eccube/
+  - ceralabo-docker/eccube_web/eccube/
+
+---
+### regolith-api
+Regolith Headless案件でのNestJSフレームワーク（TypeScript）開発用プロファイルです。
+
+- 拡張機能
+  - NestJS / TypeScript / Prisma ORM / GraphQL関連の拡張機能をインストール
+- ユーザー設定
+  - 単語をダブルクリックで選択する際、`@`を単語の一部として認識する設定
+- 対象ディレクトリ例
+  - regolith-docker/regolith-api-ctr/regolith-api/
+  - olta-docker/regolith-api-ctr/regolith-api/
+
+---
+### regolith-admin / regolith-front
+Regolith Headless案件でのNext.jsフレームワーク（TypeScript）開発用プロファイルです。
+
+- 拡張機能
+  - Next.js / React.js / TypeScript / GraphQL関連の拡張機能をインストール
+- 対象ディレクトリ例
+  - regolith-docker/regolith-admin-ctr/regolith-admin
+  - regolith-docker/regolith-front-ctr/regolith-front
+  - olta-docker/regolith-admin-ctr/regolith-admin
+  - olta-docker/regolith-front-ctr/regolith-front
+
+---
+### draw.io-view
+VSCodeでdraw.ioファイルを閲覧するためのプロファイルです。
+
+```
+aaa/
+ ├ xxx.drawio
+ ├ yyy.drawio
+ └ zzz.drawio
+```
+
+上記のように拡張子が.drawioのファイルが複数ある場合、aaa/ディレクトリをVSCodeで開くことで、ファイルを横断して簡単にdraw.ioファイルを閲覧できます。
+（Webブラウザではファイルをまたいで表示できないため、このプロファイルを作成しました）
+
+---
+### bash-script
+VSCodeでbash言語(bashシェルスクリプト)を書くためのプロファイルです。
+
+- 拡張機能
+  - bash言語サポート / 関連の拡張機能をインストール

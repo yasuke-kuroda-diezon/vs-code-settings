@@ -1,0 +1,366 @@
+[
+  {
+    "identifier": {
+      "id": "bmewburn.vscode-intelephense-client",
+      "uuid": "ffda6552-0ad5-431b-a4fa-0905a7e4f3f0"
+    },
+    "version": "1.14.4",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/bmewburn.vscode-intelephense-client-1.14.4",
+      "scheme": "file"
+    },
+    "relativeLocation": "bmewburn.vscode-intelephense-client-1.14.4",
+    "metadata": {
+      "installedTimestamp": 1759208518642,
+      "pinned": false,
+      "source": "gallery",
+      "id": "ffda6552-0ad5-431b-a4fa-0905a7e4f3f0",
+      "publisherId": "3209eeb0-2b1a-4484-8c83-2627b29db88e",
+      "publisherDisplayName": "Ben Mewburn",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "whatwedo.twig",
+      "uuid": "3324c5be-43aa-4c39-a0f8-d94c2978804f"
+    },
+    "version": "1.0.2",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/whatwedo.twig-1.0.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "whatwedo.twig-1.0.2",
+    "metadata": {
+      "installedTimestamp": 1759208525703,
+      "pinned": false,
+      "source": "gallery",
+      "id": "3324c5be-43aa-4c39-a0f8-d94c2978804f",
+      "publisherId": "9e694123-0425-4308-8ef9-c6d2013a14f4",
+      "publisherDisplayName": "whatwedo",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "eamodio.gitlens",
+      "uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
+    },
+    "version": "17.5.1",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/eamodio.gitlens-17.5.1",
+      "scheme": "file"
+    },
+    "relativeLocation": "eamodio.gitlens-17.5.1",
+    "metadata": {
+      "installedTimestamp": 1759208582213,
+      "pinned": false,
+      "source": "gallery",
+      "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
+      "publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
+      "publisherDisplayName": "GitKraken",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "streetsidesoftware.code-spell-checker",
+      "uuid": "f6dbd813-b0a0-42c1-90ea-10dde9d925a7"
+    },
+    "version": "4.2.6",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/streetsidesoftware.code-spell-checker-4.2.6",
+      "scheme": "file"
+    },
+    "relativeLocation": "streetsidesoftware.code-spell-checker-4.2.6",
+    "metadata": {
+      "installedTimestamp": 1759208623565,
+      "pinned": false,
+      "source": "gallery",
+      "id": "f6dbd813-b0a0-42c1-90ea-10dde9d925a7",
+      "publisherId": "67600ca7-88fb-4104-9f7e-dd51c00facf2",
+      "publisherDisplayName": "Street Side Software",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "xdebug.php-debug",
+      "uuid": "044b4b31-2969-4af3-895d-855433b8b46d"
+    },
+    "version": "1.37.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/xdebug.php-debug-1.37.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "xdebug.php-debug-1.37.0",
+    "metadata": {
+      "installedTimestamp": 1759287487419,
+      "pinned": false,
+      "source": "gallery",
+      "id": "044b4b31-2969-4af3-895d-855433b8b46d",
+      "publisherId": "0162ddc5-cb52-4b88-97e2-5272419cd6cd",
+      "publisherDisplayName": "Xdebug",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "neilbrayfield.php-docblocker",
+      "uuid": "ca0094fa-0dc7-4847-ae5d-879442c099ca"
+    },
+    "version": "2.7.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/neilbrayfield.php-docblocker-2.7.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "neilbrayfield.php-docblocker-2.7.0",
+    "metadata": {
+      "installedTimestamp": 1759287824804,
+      "pinned": false,
+      "source": "gallery",
+      "id": "ca0094fa-0dc7-4847-ae5d-879442c099ca",
+      "publisherId": "c57feae1-b54d-4743-8628-84a9d0363b8e",
+      "publisherDisplayName": "Neil Brayfield",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ecodes.vscode-phpmd",
+      "uuid": "5d34182e-ae7d-47ab-b8f2-6138f9d3541f"
+    },
+    "version": "1.3.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/ecodes.vscode-phpmd-1.3.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "ecodes.vscode-phpmd-1.3.0",
+    "metadata": {
+      "installedTimestamp": 1759288839123,
+      "pinned": false,
+      "source": "gallery",
+      "id": "5d34182e-ae7d-47ab-b8f2-6138f9d3541f",
+      "publisherId": "d20407c8-b847-42fe-ba8a-112f2ec09f01",
+      "publisherDisplayName": "Ecodes.io",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "thenouillet.symfony-vscode",
+      "uuid": "4fae2874-c714-444f-901c-fe6f17905a3d"
+    },
+    "version": "1.0.2",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/thenouillet.symfony-vscode-1.0.2",
+      "scheme": "file"
+    },
+    "relativeLocation": "thenouillet.symfony-vscode-1.0.2",
+    "metadata": {
+      "installedTimestamp": 1759289034140,
+      "pinned": false,
+      "source": "gallery",
+      "id": "4fae2874-c714-444f-901c-fe6f17905a3d",
+      "publisherId": "70657fb0-9394-4f17-ba48-4f4c1de5fc44",
+      "publisherDisplayName": "TheNouillet",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "nadim-vscode.symfony-code-snippets",
+      "uuid": "9558ff0d-63be-49d4-9d05-2fc5ee3c7130"
+    },
+    "version": "2.1.1",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/nadim-vscode.symfony-code-snippets-2.1.1",
+      "scheme": "file"
+    },
+    "relativeLocation": "nadim-vscode.symfony-code-snippets-2.1.1",
+    "metadata": {
+      "installedTimestamp": 1759289095418,
+      "pinned": false,
+      "source": "gallery",
+      "id": "9558ff0d-63be-49d4-9d05-2fc5ee3c7130",
+      "publisherId": "23c27a52-6613-4bda-8b0d-d09fa109d4ed",
+      "publisherDisplayName": "Nadim Al Abdou",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "nadim-vscode.twig-code-snippets",
+      "uuid": "a39647c6-23de-4f59-aa5d-20c6d5346258"
+    },
+    "version": "2.0.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/nadim-vscode.twig-code-snippets-2.0.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "nadim-vscode.twig-code-snippets-2.0.0",
+    "metadata": {
+      "installedTimestamp": 1759289095419,
+      "pinned": false,
+      "source": "gallery",
+      "id": "a39647c6-23de-4f59-aa5d-20c6d5346258",
+      "publisherId": "23c27a52-6613-4bda-8b0d-d09fa109d4ed",
+      "publisherDisplayName": "Nadim Al Abdou",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "mikestead.dotenv",
+      "uuid": "532533c9-a894-4a58-9eee-bbfbe7c06f71"
+    },
+    "version": "1.0.1",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/mikestead.dotenv-1.0.1",
+      "scheme": "file"
+    },
+    "relativeLocation": "mikestead.dotenv-1.0.1",
+    "metadata": {
+      "installedTimestamp": 1759289095418,
+      "pinned": false,
+      "source": "gallery",
+      "id": "532533c9-a894-4a58-9eee-bbfbe7c06f71",
+      "publisherId": "b6aa9b98-56e5-4846-b7d2-600d45fc63fc",
+      "publisherDisplayName": "mikestead",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "duboiss.sf-pack",
+      "uuid": "352ebb92-3fe4-4c44-9eda-5800e386c907"
+    },
+    "version": "1.1.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/duboiss.sf-pack-1.1.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "duboiss.sf-pack-1.1.0",
+    "metadata": {
+      "installedTimestamp": 1759289095416,
+      "pinned": false,
+      "source": "gallery",
+      "id": "352ebb92-3fe4-4c44-9eda-5800e386c907",
+      "publisherId": "0d1732ae-efe7-4190-b51e-770663e8ccbc",
+      "publisherDisplayName": "Steven DUBOIS",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "phproberto.vscode-php-getters-setters",
+      "uuid": "80e9cc3c-eb09-48ed-afda-f1cfd9c9ca3f"
+    },
+    "version": "1.2.3",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/phproberto.vscode-php-getters-setters-1.2.3",
+      "scheme": "file"
+    },
+    "relativeLocation": "phproberto.vscode-php-getters-setters-1.2.3",
+    "metadata": {
+      "installedTimestamp": 1759289095417,
+      "pinned": false,
+      "source": "gallery",
+      "id": "80e9cc3c-eb09-48ed-afda-f1cfd9c9ca3f",
+      "publisherId": "5b4346c3-d02a-4259-b9cd-9edd7f7dc8ec",
+      "publisherDisplayName": "phproberto",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "redhat.vscode-yaml",
+      "uuid": "2061917f-f76a-458a-8da9-f162de22b97e"
+    },
+    "version": "1.19.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/yasuke_kuroda/.vscode/extensions/redhat.vscode-yaml-1.19.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "redhat.vscode-yaml-1.19.0",
+    "metadata": {
+      "installedTimestamp": 1759289095417,
+      "pinned": false,
+      "source": "gallery",
+      "id": "2061917f-f76a-458a-8da9-f162de22b97e",
+      "publisherId": "eed56242-9699-4317-8bc7-e9f4b9bdd3ff",
+      "publisherDisplayName": "Red Hat",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "private": false,
+      "isPreReleaseVersion": false,
+      "hasPreReleaseVersion": false
+    }
+  }
+]

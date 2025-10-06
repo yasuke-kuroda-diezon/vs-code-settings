@@ -1,0 +1,41 @@
+{
+    "cSpell.userWords": [
+        "bullmq",
+        "Diezon",
+        "Dtos",
+        "eccube",
+        "endfor",
+        "esbenp",
+        "fflate",
+        "foldfix",
+        "inputmode",
+        "nodenext",
+        "Noto",
+        "opensearch",
+        "paralleldrive",
+        "pdfme",
+        "sendgrid",
+        "Sensio",
+        "Skus",
+        "trivago",
+        "Yamato",
+        "yasukekuroda"
+    ],
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "intelephense.codeLens.implementations.enable": true,
+    "intelephense.codeLens.overrides.enable": true,
+    "intelephense.codeLens.parent.enable": true,
+    "intelephense.codeLens.references.enable": true,
+    "intelephense.codeLens.usages.enable": true,
+    "intelephense.compatibility.preferPsalmPhpstanPrefixedAnnotations": true,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+}
