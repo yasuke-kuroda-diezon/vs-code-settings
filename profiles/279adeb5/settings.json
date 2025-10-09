@@ -22,10 +22,16 @@
     "yasukekuroda"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
   "notebook.showFoldingControls": "always",
   "prettier.prettierPath": "./node_modules/prettier",
   "turboConsoleLog.addSemicolonInTheEnd": true,
   "turboConsoleLog.insertEnclosingClass": false,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.suggest.completeFunctionCalls": true,
   "workbench.iconTheme": "material-icon-theme",
   "search.exclude": {
     "**/*.code-search": false,
