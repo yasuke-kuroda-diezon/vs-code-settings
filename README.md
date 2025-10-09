@@ -99,3 +99,24 @@ VSCodeでbash言語(bashシェルスクリプト)を書くためのプロファ�
 
 - 拡張機能
   - bash言語サポート / 関連の拡張機能をインストール
+
+---
+### palyground
+playgroundとして、設定を試すプロファイルです。
+
+気になる設定や拡張機能をインストールして試してみます。
+気に入れば、他のプロファイルに取り入れることを検討します。
+
+例：パフォーマンス改善の設定を行い、普段の使用感に影響がでるか確認します。
+[VSCodeが重いor不具合があるときに読む記事](https://qiita.com/osorezugoing/items/3a2ab8363cf41a2e245f)
+
+```
+"files.watcherExclude": {
+  "**/.git/objects/**": true,
+  "**/.git/subtree-cache/**": true,
+  "**/.histroy/**": true,
+  "**/.ipynb_checkpoints/**": true,
+  "**/node_modules/**": true,
+  "**/out/**": true
+}
+```

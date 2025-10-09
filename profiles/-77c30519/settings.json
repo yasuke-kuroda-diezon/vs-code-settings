@@ -63,4 +63,10 @@
     "node_modules/**": true
   },
   "explorer.confirmDelete": false,
+  "files.watcherExclude": {
+    "**/.histroy/**": true,
+    "**/.ipynb_checkpoints/**": true,
+    "**/node_modules/**": true,
+    "**/out/**": true
+  }
 }
