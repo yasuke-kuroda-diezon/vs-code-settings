@@ -20,14 +20,14 @@ VSCodeの設定管理に、プロファイルを導入します。
 
 https://diezon.gyazo.com/de4a2404dbec1e1551504718871abf62
 
-ワークスペース設定は案件のgitリポジトリで管理しており、git差分が生じる都合、気軽にカスタマイズできない課題を感じていました。
-例えば以下です。
+・「PHP開発時は、ユーザー設定 extends PHPプロファイル」
+・「Docker開発時は、ユーザー設定 extends Dockerプロファイル」
 
-[[DEV_HEADLESS/regolith-api] .vscode/settings.json | Git | Backlog](https://diezon.backlog.com/git/DEV_HEADLESS/regolith-api/blob/main/.vscode/settings.json)
+とすることで、
+・VSCode全体のグローバル設定を増やさず、軽量に保つ
+・ワークスペース設定(チームでgit管理してる)を汚さない
 
-一方で、ユーザー設定を追加するのは、VSCode全体のグローバル設定が増え、VSCodeが重たくなる要因になります。
-「PHP開発時は、ユーザー設定 extends PHPプロファイル」とし、「Docker開発時は、ユーザー設定 extends Dockerプロファイル」とすることで、
-拡張機能や設定を自由にコントロールします。
+様にします。
 
 ## プロファイル一覧
 
@@ -102,12 +102,10 @@ VSCodeでbash言語(bashシェルスクリプト)を書くためのプロファ�
 
 ---
 ### palyground
-playgroundとして、設定を試すプロファイルです。
+気になる設定や拡張機能を雑に試すプロファイルです。
+雑に試した結果、気に入れば、他のプロファイルに取り入れることを検討します。
 
-気になる設定や拡張機能をインストールして試してみます。
-気に入れば、他のプロファイルに取り入れることを検討します。
-
-例：パフォーマンス改善の設定を行い、普段の使用感に影響がでるか確認します。
+例：パフォーマンス改善の設定を行い、効果があるか試す.
 [VSCodeが重いor不具合があるときに読む記事](https://qiita.com/osorezugoing/items/3a2ab8363cf41a2e245f)
 
 ```
