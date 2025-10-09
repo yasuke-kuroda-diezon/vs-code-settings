@@ -52,7 +52,6 @@
   "nestjs.files.skipFolderConfirmation": true,
   "notebook.showFoldingControls": "always",
   "prettier.prettierPath": "./node_modules/prettier",
-  "prettier.requireConfig": true,
   "turboConsoleLog.addSemicolonInTheEnd": true,
   "turboConsoleLog.insertEnclosingClass": false,
   "workbench.iconTheme": "material-icon-theme",
