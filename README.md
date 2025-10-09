@@ -1,6 +1,7 @@
 ## 使い方
 
-VSCodeのターミナルでgit操作を行うことを想定しています。下記コマンドを実行ください
+- VSCodeのターミナルでgit操作を行うことを想定しています。
+- 下記コマンドで管理します。
 
 ```
 code ~/Library/Application\ Support/Code/User
@@ -12,28 +13,25 @@ code ~/Library/Application\ Support/Code/User
 
 ## 方針
 
-VSCodeの設定管理に、プロファイルを導入します。
+- VSCodeの設定管理に、プロファイルを導入します。
+  - `ユーザー設定 < ⭐️プロファイル設定⭐️ < ワークスペース設定`
 
-`VSCode < ユーザー設定 < ⭐️プロファイル設定⭐️ < ワークスペース設定`
+- 見た方が早く、以下の様な動作になります(60s)
+  - https://diezon.gyazo.com/de4a2404dbec1e1551504718871abf62
 
-見た方が早く、以下の様な動作になります(60s)
 
-https://diezon.gyazo.com/de4a2404dbec1e1551504718871abf62
 
-・「PHP開発時は、ユーザー設定 extends PHPプロファイル」
-・「Docker開発時は、ユーザー設定 extends Dockerプロファイル」
+- 「PHP開発時は、ユーザー設定 extends PHPプロファイル」
+- 「Docker開発時は、ユーザー設定 extends Dockerプロファイル」
 
 とすることで、
-・VSCode全体のグローバル設定を増やさず、軽量に保つ
-・ワークスペース設定(チームでgit管理してる)を汚さない
-
-様にします。
+VSCode全体のグローバル設定を増やさず、軽量に保ち、ワークスペース設定(チームでgit管理してる)を汚さない様にします。
 
 ## プロファイル一覧
 
 ### docker
-Regolith／Regolith Headless案件でのDocker作業用プロファイルです。
-VSCodeでDockerを操作する際に便利な設定をまとめています。
+- Regolith／Regolith Headless案件でのDocker作業用プロファイルです。
+- VSCodeでDockerを操作する際に便利な設定をまとめています。
 
 - 拡張機能
   - Docker関連の拡張機能をインストール
@@ -45,7 +43,7 @@ VSCodeでDockerを操作する際に便利な設定をまとめています。
 
 ---
 ### eccube
-Regolith案件でのSymfonyフレームワーク（PHP）開発用プロファイルです。
+- Regolith案件でのSymfonyフレームワーク（PHP）開発用プロファイルです。
 
 - 拡張機能
   - Symfony / PHP / Twig / YAML関連の拡張機能をインストール
@@ -57,7 +55,7 @@ Regolith案件でのSymfonyフレームワーク（PHP）開発用プロファ�
 
 ---
 ### regolith-api
-Regolith Headless案件でのNestJSフレームワーク（TypeScript）開発用プロファイルです。
+- Regolith Headless案件でのNestJSフレームワーク（TypeScript）開発用プロファイルです。
 
 - 拡張機能
   - NestJS / TypeScript / Prisma ORM / GraphQL関連の拡張機能をインストール
@@ -69,7 +67,7 @@ Regolith Headless案件でのNestJSフレームワーク（TypeScript）開発�
 
 ---
 ### regolith-admin / regolith-front
-Regolith Headless案件でのNext.jsフレームワーク（TypeScript）開発用プロファイルです。
+- Regolith Headless案件でのNext.jsフレームワーク（TypeScript）開発用プロファイルです。
 
 - 拡張機能
   - Next.js / React.js / TypeScript / GraphQL関連の拡張機能をインストール
@@ -81,7 +79,7 @@ Regolith Headless案件でのNext.jsフレームワーク（TypeScript）開発�
 
 ---
 ### draw.io-view
-VSCodeでdraw.ioファイルを閲覧するためのプロファイルです。
+- VSCodeでdraw.ioファイルを閲覧するためのプロファイルです。
 
 ```
 aaa/
@@ -95,18 +93,18 @@ aaa/
 
 ---
 ### bash-script
-VSCodeでbash言語(bashシェルスクリプト)を書くためのプロファイルです。
+- VSCodeでbash言語(bashシェルスクリプト)を書くためのプロファイルです。
 
 - 拡張機能
   - bash言語サポート / 関連の拡張機能をインストール
 
 ---
 ### palyground
-気になる設定や拡張機能を雑に試すプロファイルです。
-雑に試した結果、気に入れば、他のプロファイルに取り入れることを検討します。
+- 気になる設定や拡張機能を雑に試すプロファイルです。
+- 気に入れば、他のプロファイルに取り入れることを検討します。
 
-例：パフォーマンス改善の設定を行い、効果があるか試す.
-[VSCodeが重いor不具合があるときに読む記事](https://qiita.com/osorezugoing/items/3a2ab8363cf41a2e245f)
+- 例：パフォーマンス改善の設定を行い、効果があるか試す.
+  - [VSCodeが重いor不具合があるときに読む記事](https://qiita.com/osorezugoing/items/3a2ab8363cf41a2e245f)
 
 ```
 "files.watcherExclude": {
