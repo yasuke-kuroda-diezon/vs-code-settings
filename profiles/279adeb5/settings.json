@@ -1,13 +1,17 @@
 {
   "cSpell.userWords": [
     "bullmq",
+    "CHARA",
     "Diezon",
     "Dtos",
     "eccube",
     "esbenp",
     "fflate",
     "foldfix",
+    "Ispublished",
     "nodenext",
+    "noopener",
+    "noreferrer",
     "Noto",
     "opensearch",
     "Paidy",
@@ -19,7 +23,10 @@
     "Skus",
     "trivago",
     "Yamato",
-    "yasukekuroda"
+    "yasukekuroda",
+    "YAYOI",
+    "yoyai",
+    "yoyoi"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "github.copilot.chat.languageContext.inline.typescript.enabled": true,
