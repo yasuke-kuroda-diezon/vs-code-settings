@@ -21,6 +21,9 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "vim.foldfix": true,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#666666cc"
+  },
   "workbench.colorTheme": "Default Dark+",
   "workbench.editor.enablePreview": false,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
@@ -48,6 +51,7 @@
     "terminal.integrated.cursorBlinking",
     "terminal.integrated.cursorStyle",
     "vim.foldfix",
+    "workbench.colorCustomizations",
     "workbench.colorTheme",
     "workbench.editor.enablePreview",
     "workbench.editor.pinnedTabsOnSeparateRow",
